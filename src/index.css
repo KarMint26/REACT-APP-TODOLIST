@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  @apply bg-blue-100 p-2;
+  @apply bg-blue-100 p-2 relative;
 }
 
 /* Loader */
@@ -28,7 +28,7 @@ body {
 /* Loader End */
 
 .btn {
-  @apply text-white p-2 px-[0.85rem] outline-none border-none rounded-lg;
+  @apply text-white text-xs p-2 px-[0.6rem] sm:text-sm lg:text-base sm:p-[0.4rem] sm:px-[0.7rem] lg:p-2 lg:px-[0.85rem] outline-none border-none rounded-lg;
 }
 
 .btn-add {
