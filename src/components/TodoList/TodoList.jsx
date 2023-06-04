@@ -1,5 +1,4 @@
 import React from "react";
-import { useState, useEffect } from "react";
 import ItemTodo from "./ItemTodo";
 import Swal from "sweetalert2";
 
